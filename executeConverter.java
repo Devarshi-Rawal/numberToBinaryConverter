@@ -9,11 +9,9 @@ class Converter
 			binary = (num%2) + binary;
 			num /= 2;
 		}
-		
 		return binary;
 	}
 }
-
 class executeConverter
 {
 	public static void main(String[] args)
